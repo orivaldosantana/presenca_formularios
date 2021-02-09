@@ -3,3 +3,4 @@
 ./codigos/baixa_csvs_oriva.py 
 ./dados/*.csv  
 ./dados/ 
+./saida/
