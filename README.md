@@ -1,5 +1,7 @@
-# Presenca formulários
+# Presença formulários
 Gera a planilha de presença dos formulários de aulas assíncronas
+
+Para usar você terar que colcoar na pasta "dados" os arquivos ".csv" gerados a partir dos formulários. Depois execute o arquivo "principal_forms.py" e as planilhas de presença serão geradas na pasta "saida" 
 
 ## Contabiliza a presença nos formulários 
 * Seleciona os arquivos (forms) 
