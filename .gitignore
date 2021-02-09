@@ -1,0 +1,5 @@
+./codigos/__pycache__/*.pyc
+./codigos/__pycache__/
+./codigos/baixa_csvs_oriva.py 
+./dados/*.csv  
+./dados/ 
