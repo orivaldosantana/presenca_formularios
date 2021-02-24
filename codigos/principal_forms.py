@@ -3,8 +3,8 @@
 #caminho_dir = "~/projetos_ml/presenca_formularios/"
 
 import numpy as np 
-nomes_arqs_forms_u_1 = ['Compreensão do Perfil da Turma', 'História dos computadores', 'Algoritmo', 'Algoritmos Representação', 'Operadores Aritméticos', 'Operadores Lógicos', 'Estrutura Condicional', 'Estrutura Condicional Aplicações', 'Repetição Condicional', 'Repetição Condicional Aplicações'] 
-nomes_arqs_forms_u_2 = [ 'Introdução ao P5JS', 'Mouse teclado e ponto dentro de um retângulo', 'Revisão de Repetição Condicional e Introdução a Laço Contado', 'Repetição Contada'] 
+nomes_arqs_forms_u_1 = [ 'Compreensão do Perfil da Turma', 'História dos computadores', 'Algoritmo', 'Algoritmos Representação', 'Operadores Aritméticos', 'Operadores Lógicos', 'Estrutura Condicional', 'Estrutura Condicional Aplicações'] 
+nomes_arqs_forms_u_2 = [ 'Repetição Condicional', 'Repetição Condicional Aplicações', 'Introdução ao P5JS', 'Mouse teclado e ponto dentro de um retângulo', 'Revisão de Repetição Condicional e Introdução a Laço Contado', 'Repetição Contada'] 
 nomes_arqs_forms_u_3 = [ 'Introdução e Manipulação de Vetores','Uso e Exemplos de Vetores'] 
 
 # Colunas abreviadas para a primeira unidade 
