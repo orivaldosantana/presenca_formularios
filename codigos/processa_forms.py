@@ -35,8 +35,8 @@ def gera_dados_presenca( arqs_forms, colunas_u, mats, caminho_arqs = '../dados/'
                 if  (mats[i]==mats_temp[j]):
                     dados_frequencia[ colunas_u[n] ][mats[i]] = 1
                     #print(". "+colunas_u_1[n])
-        print("Leitura realizada com sucesso!")
-    print("Processa forms concluído!!!") 
+        print("Leitura realizada com sucesso!\n")
+    print("--- Processa forms concluído!!! --- \n") 
     # Calcula a média 
     dados_frequencia["total"] = 0
     dados_frequencia["total"] =  dados_frequencia.sum(axis=1)
