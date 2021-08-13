@@ -17,7 +17,7 @@ def gera_dados_presenca( arqs_forms, colunas_u, mats, caminho_arqs = '../dados/'
             dados_temp  = pd.read_csv(nome_arq)
         except:
             # tenta ler o próximo arquivo
-            print("Falha ao ler arquivo!") 
+            print("Falha ao ler arquivo!\n") 
             continue 
 
         # Torna campos vazios em 0
@@ -35,7 +35,7 @@ def gera_dados_presenca( arqs_forms, colunas_u, mats, caminho_arqs = '../dados/'
                 if  (mats[i]==mats_temp[j]):
                     dados_frequencia[ colunas_u[n] ][mats[i]] = 1
                     #print(". "+colunas_u_1[n])
-        print("Leitura realizada com sucesso!\n")
+        print("Ok - Leitura realizada com sucesso!\n")
     print("--- Processa forms concluído!!! --- \n") 
     # Calcula a média 
     dados_frequencia["total"] = 0
