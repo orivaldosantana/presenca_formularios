@@ -9,6 +9,8 @@ def gera_dados_presenca( arqs_forms, colunas_u, mats, caminho_arqs = '../dados/'
     # cira o data frame de saída 
     df = pd.DataFrame(columns=colunas_u, index=mats )
     dados_frequencia = df.fillna(0) 
+    # posição (coluna) da mátricula no arquivo  
+    posMat = 2
     # Lê todos os csvs dos forms de aula  
     for n in range(0, len(arqs_forms), 1):
         nome_arq = caminho_arqs +"'"+ arqs_forms[n]+"'.csv"
@@ -21,13 +23,13 @@ def gera_dados_presenca( arqs_forms, colunas_u, mats, caminho_arqs = '../dados/'
             continue 
 
         # Torna campos vazios em 0
-        dados_temp.iloc[:,1] = dados_temp.iloc[:,1].fillna(0)
+        dados_temp.iloc[:,posMat] = dados_temp.iloc[:,posMat].fillna(0)
         # Transforma o tipo do campo matricula em inteiro 
         # Para ficar compativel com o uso de indeces mais a frente 
-        dados_temp.iloc[:,1] = dados_temp.iloc[:,1].astype(int) 
+        dados_temp.iloc[:,posMat] = dados_temp.iloc[:,posMat].astype(int) 
 
         #mats_temp = dados_temp.iloc[:,1].values
-        mats_temp = dados_temp.iloc[:,1].values    
+        mats_temp = dados_temp.iloc[:,posMat].values    
         
 
         for i in range(mats.size):
