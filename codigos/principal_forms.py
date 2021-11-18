@@ -38,18 +38,6 @@ mats_sigaa = turma_sigaa.iloc[:,0].values
 
 from processa_forms import gera_dados_presenca
 
-# Gera presença para as planilhas da unidade 1
-#dados_frequencia =  gera_dados_presenca(nomes_arqs_forms_u_1,colunas_u_1,mats_sigaa)
-#dados_frequencia.head() 
-
-#dados_frequencia.to_csv("../saida/froms_u1.csv", index=False)
-
-# Gera presença para as planilhas da unidade 2
-#dados_frequencia =  gera_dados_presenca(nomes_arqs_forms_u_2,colunas_u_2,mats_sigaa)
-#dados_frequencia.head() 
-
-#dados_frequencia.to_csv("../saida/froms_u2.csv", index=False)
-
 # Gera presença para as planilhas da unidade 3
 dados_frequencia =  gera_dados_presenca(nomes_arqs_forms_u[indiceU],colunas_u[indiceU],mats_sigaa)
 dados_frequencia.head() 
