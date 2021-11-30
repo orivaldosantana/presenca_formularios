@@ -11,7 +11,6 @@ indiceU = 0
 #caminho_dir = "~/projetos_ml/presenca_formularios/"
 
 import numpy as np 
-# nomes_arqs_forms_u.append( [ 'Compreensão do Perfil da Turma', 'História dos computadores', 'Algoritmo', 'Algoritmos Representação', 'Operadores Aritméticos', 'Operadores Lógicos', 'Estrutura Condicional', 'Estrutura Condicional Aplicações'] )
 nomes_arqs_forms_u.append( [ 'Compreensão do Perfil da Turma', 'História dos computadores', 'Algoritmo', 'Algoritmos Representação', 'Operadores Aritméticos', 'Operadores Lógicos', 'Estrutura Condicional', 'Estrutura Condicional Aplicações','Sensação de Aprendizado I' ] )
 nomes_arqs_forms_u.append( [ 'Repetição Condicional', 'Repetição Condicional Aplicações', 'Introdução ao P5JS', 'Mouse, teclado e ponto dentro de um retângulo', 'Repetição Condicional e Introdução a Laço Contado', 'Repetição Contada'] )
 nomes_arqs_forms_u.append( [ 'Introdução e Manipulação de Vetores','Uso e Exemplos de Vetores'] )
