@@ -34,7 +34,7 @@ def calcula_presenca( arq_presenca, posMat = 0, caminho_arqs = '../dados/' ):
 # 0 - I
 # 1 - II
 # 2 - III 
-indiceU = 0
+indiceU = 2
 
 
 import pandas as pd 
@@ -44,7 +44,7 @@ turma_sigaa = pd.read_csv("../dados/turma_02_2022_1.csv")
 
 mats_sigaa = turma_sigaa.iloc[:,0].values
 
-dados_frequencia_res =  calcula_presenca('presenca_u1_t02_2022_2')
+dados_frequencia_res =  calcula_presenca('presenca_u3_t02_2022_2')
 print(dados_frequencia_res.head())
 
 presenca_uniao_u = pd.merge(turma_sigaa, dados_frequencia_res, how='left', on='Matrícula')
